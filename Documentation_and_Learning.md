@@ -4,6 +4,12 @@
   * Librarian => Can add the new book in library, 
   * Student => Can subscribe/issue a book, pay the fine, return the book
 
+* Tools used :
+	* JDK java 11 (Open Source - free)
+   	* MySql version 8.0.37 (Open Source - free)
+   	* MySQL IDE - MySql Workbench (Open Source - free)
+   	* Eclipse - Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components)  (Open Source - free)
+   	* Project Build initiate from : https://start.spring.io/;
 
 ## Steps and Progress of my project
 ### Step 1 :  Builded the DB Schema of Student, Books, IssuedBook, Payment
