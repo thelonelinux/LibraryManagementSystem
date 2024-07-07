@@ -16,7 +16,7 @@
    	* Eclipse - Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components)  (Open Source - free)
    	* Project Build initiate from : https://start.spring.io/;
  
-* Setting up the Environment :
+* Setting up the Environment with the latest Spring Version 3.x :
   * SpringBoot Version 3.x
     	* Here you can use only minimum possible Java version of 17 and higer versions only for compatibility
   * springBoot Version 2.x
@@ -28,8 +28,8 @@
     
     * Many old codes has been deprecated when moving/migrating from SpringBoot 2.x to 3.x
     * You can see the errors when some annotation does not work, even if it's  a dependency you have added.
-      	* Example for Spring DATA JP
-      	  	* This was working fine in Entity class annotation in Student
+      	* Example for Spring DATA JPA
+      	  	* This was working fine in Entity class annotation in Student (In spring 2.x)
       	  	  	* import javax.persistence.Column;
 			* import javax.persistence.Entity;
 			* import javax.persistence.Id;
