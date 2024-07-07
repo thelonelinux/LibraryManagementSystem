@@ -19,6 +19,8 @@
 * Setting up the Environment with the latest Spring Version 3.x :
   * SpringBoot Version 3.x
     	* Here you can use only minimum possible Java version of 17 and higer versions only for compatibility
+    	* More detail about springboot 3.x : Read this below documentation
+    	* https://docs.spring.io/spring-boot/docs/3.0.11/reference/html/getting-started.html#:~:text=Spring%20Boot%20dependencies%20use%20the%20org.springframework.boot%20group%20id.,and%20declares%20dependencies%20to%20one%20or%20more%20%E2%80%9CStarters%E2%80%9D.
   * springBoot Version 2.x
     	* Here you can use max possible Java version of 17 (7, 8, 11, 13)
   * To understand more the difference between SpringBoot 2.x vs 3.x version check this youtube video : https://www.youtube.com/watch?v=_TSjkSn2yvQ&ab_channel=JavaTechie
@@ -126,8 +128,12 @@
 		</dependency>
   * <version>8.0.12</version> This version is not important as they are not mySql connection we are using, but they are dependencies version, we can have 5.x version instead.
   * JAYSPT ENCRYPTION DEPENDENCIES FOR MYSQL PASSWORD IN ENCRYPTED FORM
-  	* We can make use of jayspt dependencies to make our password encrypted : Watch this youtube video to make it encrypted
+    	* Dependency link : https://mvnrepository.com/artifact/com.github.ulisesbocchio/jasypt-spring-boot-starter/3.0.5
+  	* We can make use of jayspt dependencies to make our password encrypted : Watch this below youtube video to make it encrypted
     	* https://www.youtube.com/watch?v=SCOJ1zyGrE4&ab_channel=Easy2Excel
+       	* Here you create the Encryption of your password, using two way and also add secret code so that during runtime it will decrypt and use : https://www.devglan.com/online-tools/jasypt-online-encryption-decryption
+       	* Some new changes in default settings for jayspt 3.x, check below stackoverflow link:
+       	* https://stackoverflow.com/questions/63999220/spring-boot-jasypt-failure-failed-to-bind-properties-under-spring-datasource-pa
   * SWAGGER DEPENDENCIES FOR SELF TESTING ALL THE APIS IN THIS STUDENT SERVICE
   	* To check all the api's working or not or to test them, we can make use of swagger dependencies, so that we don't need postman or etc. to do extra setup, we can directly check on our localhost only directly.
 
