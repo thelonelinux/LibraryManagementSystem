@@ -114,7 +114,7 @@
 	spring.datasource.password=Vicky1995@123  (Need to find way to encrypt this password)
 	spring.datasource.driverClassName=com.mysql.jdbc.Driver (Deprecated in spring 3.x, only works in spring 2.x)
 	spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver (Use this in spring 3.x)
-	spring.datasource.initial-size=10  (This is the number of connection instance you want to create, so that multiple request from users come then make sure we have enough connection in our connection pool) for more detail check 							microservice lecture
+	spring.datasource.initial-size=10  (This is the number of connection instance you want to create, so that multiple request from users come then make sure we have enough connection in our connection pool)
 	server.port=1111 (Port in which you want to run this Rest Service
   * Now the connection details added, map the table with class entity
   * Don't make column names in caps in MySQL, as when mapping with the Entity Class, the columns was giving error
@@ -124,9 +124,12 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.12</version>
 		</dependency>
-  * My mysql --version in my local machine was : 8.0.37
-  * Connection settings in the settings.xml file will be same as we have written here. But you can check for port number and how to make password as encrypted form => NEED TO CHECK <=
-
+  * <version>8.0.12</version> This version is not important as they are not mySql connection we are using, but they are dependencies version, we can have 5.x version instead.
+  * JAYSPT ENCRYPTION DEPENDENCIES FOR MYSQL PASSWORD IN ENCRYPTED FORM
+  	* We can make use of jayspt dependencies to make our password encrypted : Watch this youtube video to make it encrypted
+    	* https://www.youtube.com/watch?v=SCOJ1zyGrE4&ab_channel=Easy2Excel
+  * SWAGGER DEPENDENCIES FOR SELF TESTING ALL THE APIS IN THIS STUDENT SERVICE
+  	* To check all the api's working or not or to test them, we can make use of swagger dependencies, so that we don't need postman or etc. to do extra setup, we can directly check on our localhost only directly.
 
 
 
