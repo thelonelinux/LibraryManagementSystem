@@ -145,18 +145,18 @@
 	*	Use this url to get the data in doc json format : http://localhost:8181/v3/api-docs
 	*	For more detail learning follow this youtube video : https://www.youtube.com/watch?v=xZyUOhRpuQ0&ab_channel=ProgRank -
 	*	dependency
-	*	groupId>org.springdoc<groupId>
-	*	<artifactId>springdoc-openapi-starter-webmvc-ui<artifactId>
-	*	<version>2.0.3<version>
-	*	<dependency>
+	*	groupId>org.springdoc<groupId
+	*	<artifactId>springdoc-openapi-starter-webmvc-ui<artifactId
+	*	<version>2.0.3<version
+	*	dependency
  
 * Now once the project is ready we can add Junit Test Cases and then deploy this project in docker in AWS, and then later we can move in next service viz book, bookIssue, payment etc.
-* COMMAND LINE PASS STRING ARGS FOR PORT VALUE - Helpful when we want to run same service in different ports to scale our microservice.
-  * Check how it is done.
-* JUNIT TESTING (TODO)
-  * Check how it is done
-* DEPLOY IN DOCKER AWS (TODO)
-  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
+	* COMMAND LINE PASS STRING ARGS FOR PORT VALUE - Helpful when we want to run same service in different ports to scale our microservice.
+	  * Check how it is done.
+	* JUNIT TESTING (TODO)
+	  * Check how it is done
+	* DEPLOY IN DOCKER AWS (TODO)
+	  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
 
 
 
