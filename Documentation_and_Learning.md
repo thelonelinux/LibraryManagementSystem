@@ -151,8 +151,12 @@
 	*	<dependency>
  
 * Now once the project is ready we can add Junit Test Cases and then deploy this project in docker in AWS, and then later we can move in next service viz book, bookIssue, payment etc.
+* COMMAND LINE PASS STRING ARGS FOR PORT VALUE - Helpful when we want to run same service in different ports to scale our microservice.
+  * Check how it is done.
 * JUNIT TESTING (TODO)
+  * Check how it is done
 * DEPLOY IN DOCKER AWS (TODO)
+  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
 
 
 
