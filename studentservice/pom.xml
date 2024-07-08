@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<!-- This take care of dependencies and versions of dependencies 2.7.12 -->
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.1</version> 
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>studentservice</groupId>
+	<artifactId>studentservice</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>studentservice</name>
+	<description>Demo project for Spring Boot Student service</description>
+	<properties>
+				<java.version>17</java.version>	
+	</properties>
+	<dependencies>
+		<dependency>
+			<!-- This take cares of crud operation on mysql -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>		
+		</dependency>
+		<dependency>
+			<!-- This take cares Spring MVC which is required for building Rest API apps -->
+			<!-- This also comes with Tomcat server -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			
+		</dependency>
+		
+				
+		<dependency>
+			<!-- This is for adding mysql driver and making connection as well.  -->			
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>		
+		</dependency>	
+		
+		
+		<!-- https://mvnrepository.com/artifact/com.github.ulisesbocchio/jasypt-spring-boot-starter -->
+		<!-- This repo is meant for encrypting the db password and adding in settings.xml file. -->
+		<!-- To search this dependency just go to the google and search this by artifactId name,  -->
+		<dependency>
+		    <groupId>com.github.ulisesbocchio</groupId>
+		    <artifactId>jasypt-spring-boot-starter</artifactId>
+		    <version>3.0.5</version>
+		</dependency>
+		
+		<!-- for swagger - just add below spring 3.x dependency and no need to do enable thing in main class 
+		Use this url to check swagger working : http://localhost:8181/swagger-ui/index.html  
+		Use this url to get the data in doc json format : http://localhost:8181/v3/api-docs
+		For more detail learning follow this youtube video : https://www.youtube.com/watch?v=xZyUOhRpuQ0&ab_channel=ProgRank -->
+		<dependency>
+		  <groupId>org.springdoc</groupId>
+		  <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		  <version>2.0.3</version>
+		</dependency>
+			
+		
+
+		<dependency>
+			<!-- This is for preparing test cases, like JUNIT, which is coded in src/test/java -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<!-- This specifies it's a maven project, and not gradle or like nuget in .net -->
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
