@@ -139,15 +139,15 @@
        	* End
        	* 
   * SWAGGER DEPENDENCIES FOR SELF TESTING ALL THE APIS IN THIS STUDENT SERVICE
-  	* <!-- for swagger - just add below spring 3.x dependency and no need to do enable thing in main class 
-		Use this url to check swagger working : http://localhost:8181/swagger-ui/index.html  
-		Use this url to get the data in doc json format : http://localhost:8181/v3/api-docs
-		For more detail learning follow this youtube video : https://www.youtube.com/watch?v=xZyUOhRpuQ0&ab_channel=ProgRank -->
-		<dependency>
-		  <groupId>org.springdoc</groupId>
-		  <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-		  <version>2.0.3</version>
-		</dependency>
+  	* !-- for swagger - just add below spring 3.x dependency and no need to do enable thing in main class 
+	*	Use this url to check swagger working : http://localhost:8181/swagger-ui/index.html  
+	*	Use this url to get the data in doc json format : http://localhost:8181/v3/api-docs
+	*	For more detail learning follow this youtube video : https://www.youtube.com/watch?v=xZyUOhRpuQ0&ab_channel=ProgRank -
+	*	dependency
+	*	groupId>org.springdoc</groupId>
+	*	<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+	*	<version>2.0.3</version>
+	*	</dependency>
 
 
 
