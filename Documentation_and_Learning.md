@@ -127,6 +127,8 @@
 			<version>8.0.12</version>
 		</dependency>
   * <version>8.0.12</version> This version is not important as they are not mySql connection we are using, but they are dependencies version, we can have 5.x version instead.
+  * End
+  * 
   * JAYSPT ENCRYPTION DEPENDENCIES FOR MYSQL PASSWORD IN ENCRYPTED FORM
     	* Dependency link : https://mvnrepository.com/artifact/com.github.ulisesbocchio/jasypt-spring-boot-starter/3.0.5
   	* We can make use of jayspt dependencies to make our password encrypted : Watch this below youtube video to make it encrypted
@@ -134,8 +136,18 @@
        	* Here you create the Encryption of your password, using two way and also add secret code so that during runtime it will decrypt and use : https://www.devglan.com/online-tools/jasypt-online-encryption-decryption
        	* Some new changes in default settings for jayspt 3.x, check below stackoverflow link:
        	* https://stackoverflow.com/questions/63999220/spring-boot-jasypt-failure-failed-to-bind-properties-under-spring-datasource-pa
+       	* End
+       	* 
   * SWAGGER DEPENDENCIES FOR SELF TESTING ALL THE APIS IN THIS STUDENT SERVICE
-  	* To check all the api's working or not or to test them, we can make use of swagger dependencies, so that we don't need postman or etc. to do extra setup, we can directly check on our localhost only directly.
+  	* <!-- for swagger - just add below spring 3.x dependency and no need to do enable thing in main class 
+		Use this url to check swagger working : http://localhost:8181/swagger-ui/index.html  
+		Use this url to get the data in doc json format : http://localhost:8181/v3/api-docs
+		For more detail learning follow this youtube video : https://www.youtube.com/watch?v=xZyUOhRpuQ0&ab_channel=ProgRank -->
+		<dependency>
+		  <groupId>org.springdoc</groupId>
+		  <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		  <version>2.0.3</version>
+		</dependency>
 
 
 
