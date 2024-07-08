@@ -91,6 +91,7 @@
 
 
 ### Step 2 : Making required services
+#### STUDENTSERVICE SPRINGBOOT PROJECT PREPARATION
 * NOTE : Directly copying old microservices project code and using in your latest springboot version code may not work as many are depreciated as migration from springboot 2.x to 3.x
 * 1. StudentService (More Comment of Project dependencies, I have added in Code Project only check there)
   * Create project in spring Initializer
@@ -144,10 +145,14 @@
 	*	Use this url to get the data in doc json format : http://localhost:8181/v3/api-docs
 	*	For more detail learning follow this youtube video : https://www.youtube.com/watch?v=xZyUOhRpuQ0&ab_channel=ProgRank -
 	*	dependency
-	*	groupId>org.springdoc</groupId>
-	*	<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-	*	<version>2.0.3</version>
-	*	</dependency>
+	*	groupId>org.springdoc<groupId>
+	*	<artifactId>springdoc-openapi-starter-webmvc-ui<artifactId>
+	*	<version>2.0.3<version>
+	*	<dependency>
+ 
+* Now once the project is ready we can add Junit Test Cases and then deploy this project in docker in AWS, and then later we can move in next service viz book, bookIssue, payment etc.
+* JUNIT TESTING (TODO)
+* DEPLOY IN DOCKER AWS (TODO)
 
 
 
