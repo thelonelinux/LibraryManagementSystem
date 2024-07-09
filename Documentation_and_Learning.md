@@ -162,6 +162,7 @@
      	  * Because unit testing should be light, should not always connect with DB as it will be heavy and time consuming. so we test by mocking the DBs data.
           * Also sometimes we may not find DB accessible as it may be in maintenance, like in jenkins pipeline so better mock and test.
           * More detail learn here about why we need mocking testing for DBs : https://springframework.guru/mocking-unit-tests-mockito/
+          * Implementation and understanding the working you can check this : https://www.youtube.com/playlist?list=PLUDwpEzHYYLtg-RO06RVFsauoAv241TNE
 	* DEPLOY IN DOCKER AWS (TODO)
 	  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
 
