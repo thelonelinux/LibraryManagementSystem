@@ -155,6 +155,13 @@
 	  * Check how it is done.
 	* JUNIT TESTING (TODO)
 	  * Check how it is done
+          * Testing is done for Methods we have made in our service class.
+          * Testing should be light weight, should not be time-consuming. So to test APIs related methods which call for DBs, we should better use mockito by mocking DB to test the methods.
+     	* MOCKITO TESTING (TODO)
+	  * Why we need mock testing, mocking of database to test api's related service methods.
+     	  * Because unit testing should be light, should not always connect with DB as it will be heavy and time consuming. so we test by mocking the DBs data.
+          * Also sometimes we may not find DB accessible as it may be in maintenance, like in jenkins pipeline so better mock and test.
+          * More detail learn here about why we need mocking testing for DBs : https://springframework.guru/mocking-unit-tests-mockito/
 	* DEPLOY IN DOCKER AWS (TODO)
 	  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
 
