@@ -157,12 +157,20 @@
 	  * Check how it is done
           * Testing is done for Methods we have made in our service class.
           * Testing should be light weight, should not be time-consuming. So to test APIs related methods which call for DBs, we should better use mockito by mocking DB to test the methods.
-     	* MOCKITO TESTING (TODO)
+     	* MOCKITO TESTING (TODO) :
+          * VERY IMP :  This is also JUNIT testing only, This is mainly used to test crud methods in Repository,
+          * Here we mock the repository methods like (findAll(), findById(), etc)
+          * Mocking means : To mock the repository methods like findAll(), So this method which is actually acessing data from DB, But instead we mock this method to return only our data
+          * which we have added in our testClass, so it won't call data from DB, instead get data from that test class only which we will be preparing.
+          * So in this way we can test our findAll() methods without actually depdending on DB. These methods are present in service class under it's methods, or say the methods
+          * used in service class are dependent in this crud repository methods, and internally called.
+          * -- Done--
 	  * Why we need mock testing, mocking of database to test api's related service methods.
      	  * Because unit testing should be light, should not always connect with DB as it will be heavy and time consuming. so we test by mocking the DBs data.
           * Also sometimes we may not find DB accessible as it may be in maintenance, like in jenkins pipeline so better mock and test.
           * More detail learn here about why we need mocking testing for DBs : https://springframework.guru/mocking-unit-tests-mockito/
           * Implementation and understanding the working you can check this : https://www.youtube.com/playlist?list=PLUDwpEzHYYLtg-RO06RVFsauoAv241TNE
+          * Using mokito and unit test : https://www.youtube.com/watch?v=_2fs_qjc0RQ&ab_channel=SDET-QA
 	* DEPLOY IN DOCKER AWS (TODO)
 	  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
 
