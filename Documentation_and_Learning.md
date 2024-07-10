@@ -174,6 +174,7 @@
           * Implementation and understanding the working you can check this : https://www.youtube.com/playlist?list=PLUDwpEzHYYLtg-RO06RVFsauoAv241TNE
           * Using mokito and unit test : https://www.youtube.com/watch?v=_2fs_qjc0RQ&ab_channel=SDET-QA
           * IMP LEARNING : sometimes you get error in importing studentService in mockitoTestClass, then just hover over it, scroll down and there you find import. just import that and save.
+          * To run the junit test : Just right click on the mockitoTestClass and run as Junit Test. You will see all the test and there success and failure.
         * MOCKMVC Testing  : To test Controller methods without starting the spring boot project.
 	* DEPLOY IN DOCKER AWS (TODO)
 	  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
