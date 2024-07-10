@@ -154,10 +154,12 @@
 	* COMMAND LINE PASS STRING ARGS FOR PORT VALUE - Helpful when we want to run same service in different ports to scale our microservice.
 	  * Check how it is done.
 	* JUNIT TESTING (TODO)
+          * Unit Testing means testing a single method, so controller class and service class can have different methods, we need to test those.
+   	  * Watch this youtube video for more details : https://www.youtube.com/watch?v=KwXl20f_v1w&list=PLUDwpEzHYYLtg-RO06RVFsauoAv241TNE&index=8&ab_channel=SDET-QA
 	  * Check how it is done
           * Testing is done for Methods we have made in our service class.
           * Testing should be light weight, should not be time-consuming. So to test APIs related methods which call for DBs, we should better use mockito by mocking DB to test the methods.
-     	* MOCKITO TESTING (TODO) :
+     	* MOCKITO TESTING (TODO) : 
           * VERY IMP :  This is also JUNIT testing only, This is mainly used to test crud methods in Repository,
           * Here we mock the repository methods like (findAll(), findById(), etc)
           * Mocking means : To mock the repository methods like findAll(), So this method which is actually acessing data from DB, But instead we mock this method to return only our data
@@ -171,8 +173,11 @@
           * More detail learn here about why we need mocking testing for DBs : https://springframework.guru/mocking-unit-tests-mockito/
           * Implementation and understanding the working you can check this : https://www.youtube.com/playlist?list=PLUDwpEzHYYLtg-RO06RVFsauoAv241TNE
           * Using mokito and unit test : https://www.youtube.com/watch?v=_2fs_qjc0RQ&ab_channel=SDET-QA
+        * MOCKMVC Testing  : To test Controller methods without starting the spring boot project.
 	* DEPLOY IN DOCKER AWS (TODO)
 	  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
+        * Also add try catch in Controller, just in case in findbyid, that id is not present then we need to throw some exception, That code you can check in mockito one only.
+          * This will return HTTP Status exception
 
 
 
