@@ -173,6 +173,7 @@
           * More detail learn here about why we need mocking testing for DBs : https://springframework.guru/mocking-unit-tests-mockito/
           * Implementation and understanding the working you can check this : https://www.youtube.com/playlist?list=PLUDwpEzHYYLtg-RO06RVFsauoAv241TNE
           * Using mokito and unit test : https://www.youtube.com/watch?v=_2fs_qjc0RQ&ab_channel=SDET-QA
+          * IMP LEARNING : sometimes you get error in importing studentService in mockitoTestClass, then just hover over it, scroll down and there you find import. just import that and save.
         * MOCKMVC Testing  : To test Controller methods without starting the spring boot project.
 	* DEPLOY IN DOCKER AWS (TODO)
 	  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
