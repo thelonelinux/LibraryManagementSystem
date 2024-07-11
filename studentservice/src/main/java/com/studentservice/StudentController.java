@@ -3,6 +3,7 @@ package com.studentservice;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -30,6 +31,19 @@ public class StudentController {
 	@PostMapping("/student")
 	public Student createStudent(@RequestBody Student student) {
 		return studentService.addStudent(student);
+	}
+	
+	@DeleteMapping("/deleteStudent/{student}")
+	public Student deleteStudent(@RequestBody Student student) {
+		studentService.deleteStudent(student);
+		return student;
+	}
+	
+	@DeleteMapping("/deleteById/{id}") //Need to test case for this in mockito, check how to do
+	public Student deleteStudent(@PathVariable Integer id) {
+		Student student = studentService.getStudentById(id);
+		studentService.deleteStudentById(id);
+		return student;
 	}
 	
 	@GetMapping("/studentsByFirstAndLastName/{firstName}/{lastName}")
