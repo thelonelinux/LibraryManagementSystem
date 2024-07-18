@@ -21,7 +21,8 @@
 * Check how to run multiple spring modules at once, and they should be able to interact with each other.
 * For that please check this below youtube link : https://www.youtube.com/watch?v=od6HHvuxgAo&list=PLJyMAT_Wb6qp9RiusxeWxvsfi7VeZtdcY&ab_channel=CodeForgeYT
 * Here you can see how sub-module connect with some dependency managemet in pom.xml file of parent and sub-modules.
-* Also check this video : Parent project is not of type of jar or war but of type pom : https://www.youtube.com/watch?v=YdAMoN1ZsXw&list=PLJyMAT_Wb6qp9RiusxeWxvsfi7VeZtdcY&index=7&ab_channel=ProDevAmit
+* Also check this video : Parent project is not of type of jar or war but of type pom (ignore this for now, as old video) : https://www.youtube.com/watch?v=YdAMoN1ZsXw&list=PLJyMAT_Wb6qp9RiusxeWxvsfi7VeZtdcY&index=7&ab_channel=ProDevAmit
+* Also watch this video for understanding knowledge of module and some theory : https://www.youtube.com/watch?v=I1eE4BcI408&list=PLJyMAT_Wb6qp9RiusxeWxvsfi7VeZtdcY&index=2&ab_channel=GainJavaKnowledge
 
 #### 3. WebApplication Context and Servlet in Spring boot
 
