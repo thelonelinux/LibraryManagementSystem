@@ -25,8 +25,11 @@
 * Also watch this video for understanding knowledge of module and some theory : https://www.youtube.com/watch?v=I1eE4BcI408&list=PLJyMAT_Wb6qp9RiusxeWxvsfi7VeZtdcY&index=2&ab_channel=GainJavaKnowledge
 * Also check this (This is the recent videos) : https://www.youtube.com/watch?v=laF45Z2gI1I&ab_channel=ProgrammingKnowledge
 
-#### 3. WebApplication Context and Servlet in Spring boot
+#### 3. WebApplication Context and Servlet in Spring boot (This was extending SpringBootServletInitializer)
+* So to learn about SpringBootServletInitializer (Check this documentation) : https://www.baeldung.com/spring-boot-servlet-initializer
 
 #### 4. How to debug Spring boot project with frontend included
 
-#### 5. 
+#### 5. Logging in Spring Boot
+* Check this youtube video
+* https://www.youtube.com/watch?v=D7IVAidxcKE&list=PLzS3AYzXBoj8UcLsBN3UXd7Nf1T4ZyJa0&index=36&ab_channel=KKJavaTutorials
