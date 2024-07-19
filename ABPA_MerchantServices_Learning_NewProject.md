@@ -37,3 +37,7 @@
 #### 5. Logging in Spring Boot
 * Check this youtube video
 * https://www.youtube.com/watch?v=D7IVAidxcKE&list=PLzS3AYzXBoj8UcLsBN3UXd7Nf1T4ZyJa0&index=36&ab_channel=KKJavaTutorials
+* 
+
+#### 6. Mock Apis for frontend
+* https://dev.to/sivaneshs/create-mock-apis-for-building-frontend-apps-quickly-without-the-backend-2lm2
