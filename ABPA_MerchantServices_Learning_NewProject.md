@@ -27,6 +27,8 @@
 
 #### 3. WebApplication Context and Servlet in Spring boot (This was extending SpringBootServletInitializer)
 * So to learn about SpringBootServletInitializer (Check this documentation) : https://www.baeldung.com/spring-boot-servlet-initializer
+* More about springboot initializer learn here : https://codippa.com/springboot-servletinitializer-example/
+* https://www.concretepage.com/spring-boot/springbootservletinitializer-example
 
 #### 4. How to debug Spring boot project with frontend included
 
