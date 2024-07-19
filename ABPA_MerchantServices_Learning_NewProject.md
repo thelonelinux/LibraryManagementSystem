@@ -29,6 +29,8 @@
 * So to learn about SpringBootServletInitializer (Check this documentation) : https://www.baeldung.com/spring-boot-servlet-initializer
 * More about springboot initializer learn here : https://codippa.com/springboot-servletinitializer-example/
 * https://www.concretepage.com/spring-boot/springbootservletinitializer-example
+* Refer this docs also : https://docs.spring.io/spring-boot/api/java/org/springframework/boot/web/servlet/support/SpringBootServletInitializer.html
+* THIS ONE IS VERY IMPORTANT AND IN DETAIL UNDERSTANDING OF SPRINGBOOTSERVLETINITIALIZER : https://howtodoinjava.com/spring-boot/spring-boot-servletinitializer/
 
 #### 4. How to debug Spring boot project with frontend included
 
