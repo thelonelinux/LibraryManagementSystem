@@ -35,6 +35,7 @@
 #### 4 (Done). How to debug Spring boot project with frontend included
 * You can debug by putting the break point, and on the main application file, right click and do debug as java application,
 * This you can do the debug
+* check this video of how debug works : https://www.youtube.com/watch?v=dqsTLFz4ers&ab_channel=LearnCodeWithDurgesh
 
 #### 5. Logging in Spring Boot
 * Check this youtube video
