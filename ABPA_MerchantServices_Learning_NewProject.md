@@ -51,6 +51,23 @@
 * This way of flow configuration using xml file is bit not implemented anywhere as checked in online.
 * Need to ask to Padmarajan, what type of sub-technology is this.
 * For now you can debug and check
+* 
+
+#### 8. HTTPServlet Request and Response
+* Learning
+* Very very imp
+* Servlet Lifecycle : first init(ServletConfig sc) method is called and then service(HttpServletRequest req, HttpServletResponse res) method. so this is the step
+* During first request only object is called and init is called, later when it is reqeusted then it will start from service method only. Unless server is closed then and destroy method is called
+* In Service method we can forward the HTML page, there only. You can make login page or signup page there only.
+* xml is like html for servlet and java is backend.
+* each servlet is mapped to there own url. servlet is web page. like each servlet is one web-page, and they can be form type and there you do crud operations also.
+* servlet myapp project is stored in apache tomcat in web apps only folder only,,there you can check, as it is run from there only.
+* ServletConfig and ServletContext : servlet config is used to read local servlet data <init-param> and servlet context is used to read global data <Context-param>. This is read from web.xml parameters
+* ServletConfig reads all the data from web.xml file like driver, URL, username password under init tag, which is stored in ServletConfig class.
+* This servlet also supports html tags in the strings.
+* https://www.youtube.com/watch?v=vrNuroo9rmA&ab_channel=SumitThakkar
+* This is the whole playlist on servlet : https://www.youtube.com/watch?v=XldqRAuvjdU&list=PLptQqlzcC-fNKxz_TPKFeYZElEDT2JfUF&ab_channel=SumitThakkar
+* https://www.youtube.com/watch?v=XldqRAuvjdU&list=PLptQqlzcC-fNKxz_TPKFeYZElEDT2JfUF&ab_channel=SumitThakkar
 
 
 
