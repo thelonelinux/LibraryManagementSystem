@@ -53,7 +53,7 @@
 * For now you can debug and check
 * 
 
-#### 8. HTTPServlet Request and Response
+#### 8 (Ignore this as this is not spring related Project). HTTPServlet Request and Response 
 * Learning
 * Very very imp
 * Servlet Lifecycle : first init(ServletConfig sc) method is called and then service(HttpServletRequest req, HttpServletResponse res) method. so this is the step
@@ -69,6 +69,9 @@
 * This is the whole playlist on servlet : https://www.youtube.com/watch?v=XldqRAuvjdU&list=PLptQqlzcC-fNKxz_TPKFeYZElEDT2JfUF&ab_channel=SumitThakkar
 * https://www.youtube.com/watch?v=XldqRAuvjdU&list=PLptQqlzcC-fNKxz_TPKFeYZElEDT2JfUF&ab_channel=SumitThakkar
 * ALSO LEARN ABOUT SERVLET IN SPRING BOOT - HOW IT IS DONE
+* 
+#### 9. Spring MVC and WorkFlow using xml file (Which is a old way of doing configuration)
+* This is spring MVC related project
 
 
 
