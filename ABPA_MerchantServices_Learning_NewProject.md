@@ -68,6 +68,7 @@
 * https://www.youtube.com/watch?v=vrNuroo9rmA&ab_channel=SumitThakkar
 * This is the whole playlist on servlet : https://www.youtube.com/watch?v=XldqRAuvjdU&list=PLptQqlzcC-fNKxz_TPKFeYZElEDT2JfUF&ab_channel=SumitThakkar
 * https://www.youtube.com/watch?v=XldqRAuvjdU&list=PLptQqlzcC-fNKxz_TPKFeYZElEDT2JfUF&ab_channel=SumitThakkar
+* ALSO LEARN ABOUT SERVLET IN SPRING BOOT - HOW IT IS DONE
 
 
 
