@@ -52,7 +52,7 @@
 
 ## Steps and Progress of my project
 ### Step 1 :  Builded the DB Schema of Student, Books, IssuedBook, Payment
-* 
+* MySQL Bench (user is root password is Vihaha19haha@123)
 *
 
 
@@ -150,10 +150,9 @@
 	*	<version>2.0.3<version
 	*	dependency
  
-* Now once the project is ready we can add Junit Test Cases and then deploy this project in docker in AWS, and then later we can move in next service viz book, bookIssue, payment etc.
-	* COMMAND LINE PASS STRING ARGS FOR PORT VALUE - Helpful when we want to run same service in different ports to scale our microservice.
-	  * Check how it is done.
-	* JUNIT TESTING (TODO)
+#### Now once the project is ready we can add Junit Test Cases and then deploy this project in docker in AWS, and then later we can move in next service viz book, bookIssue, payment etc.
+	
+* JUNIT TESTING (Done) (Includes Service Method Testing using mockito, Controller method Testing using mockito, ControllerMvc Url Testings using mockito and MockMvc, some simple test also added)
           * Unit Testing means testing a single method, so controller class and service class can have different methods, we need to test those.
    	  * Watch this youtube video for more details : https://www.youtube.com/watch?v=KwXl20f_v1w&list=PLUDwpEzHYYLtg-RO06RVFsauoAv241TNE&index=8&ab_channel=SDET-QA
 	  * Check how it is done
@@ -176,7 +175,9 @@
           * IMP LEARNING : sometimes you get error in importing studentService in mockitoTestClass, then just hover over it, scroll down and there you find import. just import that and save.
           * To run the junit test : Just right click on the mockitoTestClass and run as Junit Test. You will see all the test and there success and failure.
         * MOCKMVC Testing  : To test Controller methods without starting the spring boot project.
-	* DEPLOY IN DOCKER AWS (TODO)
+* COMMAND LINE PASS STRING ARGS FOR PORT VALUE - Helpful when we want to run same service in different ports to scale our microservice.
+	  * Check how it is done.
+* DEPLOY IN DOCKER AWS (TODO)
 	  * Check how we can deploy MySQL Server in AWS, And how connection string is picked there.
         * Also add try catch in Controller, just in case in findbyid, that id is not present then we need to throw some exception, That code you can check in mockito one only.
           * This will return HTTP Status exception
