@@ -5,11 +5,11 @@
 * Learning items : 
   * Simple SpringBootApplication
   * Use of Annotation
-  * Controller, Service, JPA, DTO, Mockito Test and Junit Test
+  * Controller, Service, JPA, DTO, Swagger, Mockito Test and Junit Test
 * New thing to add
-  * Swagger
-  * Configuration way of creating beans, Spring Annotation of @Autowire withing class Parameter. New way learnt in Merchant Services. (check below link)
+  * Configuration way of creating beans separately using @Configuration and @Beans, Spring Annotation of @Autowire withing class Parameter. New way learnt in Merchant Services. (check below link)
     * https://www.youtube.com/watch?v=6X_Xx0CyCqE&ab_channel=CodeDecode
+    * This beans will return what is invoke from it's method. (bean method return is what is invoked)
 
 
 ## Requirement : 

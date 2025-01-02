@@ -27,7 +27,7 @@ import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties
 
 @SpringBootApplication
 @EnableEncryptableProperties
-//@EnableSwagger3
+//@EnableSwagger3 (See pom.xml file, there you will see details about swagger, search swagger there)
 public class StudentserviceApplication {
 
 	public static void main(String[] args) {
