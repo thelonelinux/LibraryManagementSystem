@@ -17,18 +17,20 @@
 	<properties>
 				<java.version>17</java.version>	
 	</properties>
+
 	<dependencies>
+
 		<dependency>
 			<!-- This take cares of crud operation on mysql -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>		
 		</dependency>
+
 		<dependency>
 			<!-- This take cares Spring MVC which is required for building Rest API apps -->
 			<!-- This also comes with Tomcat server -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			
 		</dependency>
 		
 				
